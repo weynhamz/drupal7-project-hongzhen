@@ -5,6 +5,10 @@
  * Install and uninstall hooks for theme developer
  *
  */
+function devel_themer_disable() {
+  devel_themer_cleanup();
+}
+
 function devel_themer_requirements($phase) {
   // Ensure translations don't break at install time
   $t = get_t();
