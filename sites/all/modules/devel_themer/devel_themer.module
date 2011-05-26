@@ -185,8 +185,8 @@ function devel_themer_theme_registry_alter(&$theme_registry) {
     }
     // Add our catch function to intercept functions as well as templates.
     $theme_registry[$hook]['function'] = 'devel_themer_catch_function';
-    
-    // Remove the process and preprocess functions so they are 
+
+    // Remove the process and preprocess functions so they are
     // only called by devel_themer_theme_twin().
     $theme_registry[$hook]['devel_function_preprocess_intercept'] = $theme_registry[$hook]['preprocess functions'];
     $theme_registry[$hook]['devel_function_process_intercept'] = $theme_registry[$hook]['process functions'];
@@ -656,10 +656,12 @@ EOT;
  *   void.
  */
 function devel_themer_cleanup() {
-  $scan = file_scan_directory('temporary://', '/^devel_themer_/', array('recurse' => FALSE));
-  foreach (array_keys($scan) as $file) {
-    $fid = db_query('SELECT fid FROM {file_managed} WHERE uri = :uri', array(':uri' => "temporary://$file"))->fetchField();
+  $scan = file_scan_directory(variable_get("file_temporary_path","/tmp"), '/^devel_themer_/', array('recurse' => FALSE));
+  foreach ($scan as $file) {
+    $fid = db_query('SELECT fid FROM {file_managed} WHERE uri = :uri', array(':uri' => "temporary://".$file->filename))->fetchField();
     if (!empty($fid)) {
+      $file->fid = $fid;
+      $file->uri = "temporary://".$file->filename;
       file_delete($file);
     }
   }

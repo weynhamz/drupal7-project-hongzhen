@@ -1,0 +1,15 @@
+Index: sites/all/modules/devel_themer/devel_themer.install
+===================================================================
+--- sites/all/modules/devel_themer/devel_themer.install	(revision 7)
++++ sites/all/modules/devel_themer/devel_themer.install	(working copy)
+@@ -5,6 +5,10 @@
+  * Install and uninstall hooks for theme developer
+  *
+  */
++function devel_themer_disable() {
++  devel_themer_cleanup();
++}
++
+ function devel_themer_requirements($phase) {
+   // Ensure translations don't break at install time
+   $t = get_t();
