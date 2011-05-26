@@ -41,6 +41,9 @@ DirectoryIndex index.php index.html index.htm
   php_value mbstring.http_input             pass
   php_value mbstring.http_output            pass
   php_flag mbstring.encoding_translation    off
+  php_value xdebug.auto_trace on
+  php_value xdebug.remote_enable on
+  php_value xdebug.show_mem_delta on
 </IfModule>
 
 # Requires mod_expires to be enabled.
