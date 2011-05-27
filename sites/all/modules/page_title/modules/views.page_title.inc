@@ -44,7 +44,7 @@ function views_page_title_pattern_alter(&$pattern, &$types) {
     }
     // This is a view with no args provided, or the specific arg has no title - lets use the base display title
     else {
-      $pattern = $view->display->handler->get_option('page_title_pattern');
+      $pattern = $view->display['default']->handler->get_option('page_title_pattern');
     }
   }
 }
