@@ -342,3 +342,53 @@ h2.block-title /* Block title */ {
   background: url(../images/menu_block_2_li_bg_right.jpg) no-repeat;
 }
 /**/
+
+.node table{
+  empty-cells:show;
+  table-layout:fixed;
+  border-collapse: collapse;
+}
+
+.node table{
+  border:1px solid #9db3c5;
+  color:#666;
+}
+.node table tr{
+  background-color:#e8f3fd;
+}
+.node table th {
+  height:30px;
+  border:1px solid #9db3c5;
+  padding:0 1em 0;
+}
+.node table td{
+  border:1px solid #cad9ea;
+  padding:0 1em 0;
+}
+
+.view-id-resources table {
+  width: 100%;
+}
+.view-id-resources table tr {
+  vertical-align: middle;
+}
+
+.view-id-resources table th {
+
+}
+
+.view-id-resources table td {
+
+}
+.view-id-resources table td a {
+  color:#000000;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.view-id-resources table td a:hover {
+  color:#c6434f;
+}
+.view-id-resources table td.views-field-title {
+  background:url(../images/download.gif) no-repeat 0px 20px transparent;
+  padding-left: 20px;
+}
