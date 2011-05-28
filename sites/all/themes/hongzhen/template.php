@@ -219,3 +219,7 @@ function hongzhen_file_icon($variables) {
   $icon_url = file_icon_url($file, $icon_directory);
   return '<img class="file-icon" alt="" title="' . $mime . '" src="' . $icon_url . '" />';
 }
+
+function hongzhen_locationmap_block_image_link() {
+  return(l('<img src="' . locationmap_static_image_url(300, 250) . '" alt="Location map" />', 'locationmap', array('html' => TRUE)));
+}
