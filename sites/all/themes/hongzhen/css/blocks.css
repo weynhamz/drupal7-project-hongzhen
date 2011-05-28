@@ -366,29 +366,29 @@ h2.block-title /* Block title */ {
   padding:0 1em 0;
 }
 
-.view-id-resources table {
+.view-resources table {
   width: 100%;
 }
-.view-id-resources table tr {
+.view-resources table tr {
   vertical-align: middle;
 }
 
-.view-id-resources table th {
+.view-resources table th {
 
 }
 
-.view-id-resources table td {
+.view-resources table td {
 
 }
-.view-id-resources table td a {
+.view-resources table td a {
   color:#000000;
   font-weight: bolder;
   text-decoration: none;
 }
-.view-id-resources table td a:hover {
+.view-resources table td a:hover {
   color:#c6434f;
 }
-.view-id-resources table td.views-field-title {
+.view-resources table td.views-field-title {
   background:url(../images/download.gif) no-repeat 0px 20px transparent;
   padding-left: 20px;
 }

@@ -187,7 +187,7 @@ function hongzhen_menu_tree__menu_block__2($variables) {
   
   $output = '';
   $output .= '<ul class="menu">' . $variables['tree'] . '</ul>';
-  
+
   return $output;
 }
 
@@ -209,4 +209,13 @@ function hongzhen_menu_link__menu_block__2($variables) {
   $output .= '</li>';
   
   return  $output;
+}
+
+function hongzhen_file_icon($variables) {
+  $file = $variables['file'];
+  $icon_directory = "sites/all/themes/hongzhen/icons";
+
+  $mime = check_plain($file->filemime);
+  $icon_url = file_icon_url($file, $icon_directory);
+  return '<img class="file-icon" alt="" title="' . $mime . '" src="' . $icon_url . '" />';
 }
