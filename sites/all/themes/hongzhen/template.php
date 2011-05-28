@@ -177,17 +177,16 @@ function hongzhen_menu_link__menu_block__1($variables) {
 }
 
 function hongzhen_menu_tree__menu_block__2($variables) {
+  drupal_add_css(drupal_get_path('theme', 'hongzhen') . '/css/superfish.css', array('group' => CSS_THEME));
+  drupal_add_js(drupal_get_path('theme', 'hongzhen') . '/jscripts/superfish.js', array('group' => JS_THEME));
+//  drupal_add_js(drupal_get_path('theme', 'hongzhen') . '/jscripts/hoverIntent.js', array('group' => JS_THEME));
   drupal_add_js(drupal_get_path('theme', 'hongzhen') . '/jscripts/menu-block-2.js', array('group' => JS_THEME));
   drupal_add_js(drupal_get_path('theme', 'hongzhen') . '/jscripts/jquery.easing.1.3.js', array('group' => JS_THEME));
   drupal_add_js(drupal_get_path('theme', 'hongzhen') . '/jscripts/jquery.mousewheel.min.js', array('group' => JS_THEME));
   drupal_add_js(drupal_get_path('theme', 'hongzhen') . '/jscripts/jquery.slidingtabs.pack.js', array('group' => JS_THEME));
   
   $output = '';
-  $output .= '<a class="prev" href="#prev" style="display: inline;"></a>';
-  $output .= '<div class="menu-wrapper">';
   $output .= '<ul class="menu">' . $variables['tree'] . '</ul>';
-  $output .= '</div>';
-  $output .= '<a class="next" href="#next" style="display: inline;"></a>';
   
   return $output;
 }

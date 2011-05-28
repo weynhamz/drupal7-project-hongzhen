@@ -230,86 +230,115 @@ h2.block-title /* Block title */ {
   background: #aaaaaa;
 }
 /**/
-
+.region-content-top {
+  width: 588px;
+  height: 40px;
+  margin-top: -15px;
+}
 /**/
 .menu-block-2 {
   width: 588px;
   height: 40px;
+  position: absolute;
 }
-.menu-block-2 a.prev, .menu-block-2 a.next {
-  float: left;
+.menu-block-2 > div.menu-wrapper-prev{
   width: 20px;
-  height: 100%;
-  display: none;
-  outline: medium none;
+  height: 40px;
+}
+.menu-block-2 > div.menu-wrapper-prev {
+  position: relative;
+  left:0px;
+  top:0px;
+}
+.menu-block-2 > div.menu-wrapper {
+  width: 548px;
+  height: 500px;
+}
+.menu-block-2 > div.menu-wrapper {
+  position: relative;
+  left:20px;
+  top:-40px;
+}
+.menu-block-2 > div.menu-wrapper-next {
+  width: 20px;
+  height: 40px;
+}
+.menu-block-2 > div.menu-wrapper-next {
+  position: relative;
+  left:568px;
+  top:-540px;
+}
+.menu-block-2 > div.menu-wrapper-prev > a.prev,
+.menu-block-2 > div.menu-wrapper-next > a.next {
+  width: 20px;
+  height: 40px;
+  display: block;
   background: url("../images/arrows.gif") no-repeat scroll 0 0 #FFFFFF;
 }
-.menu-block-2 a.prev {
+.menu-block-2 > div.menu-wrapper-prev > a.prev {
   background-position: 0px 14px;
 }
-.menu-block-2 a.prev.disabled {
+.menu-block-2 > div.menu-wrapper-prev > a.prev.disabled {
   background-position: -127px 14px;
 }
-.menu-block-2 a.next {
+.menu-block-2 > div.menu-wrapper-next > a.next {
   background-position: 7px -14px;
 }
-.menu-block-2 a.next.disabled {
+.menu-block-2 > div.menu-wrapper-next > a.next.disabled {
   background-position: -120px -14px;
 }
-.menu-block-2 div.menu-wrapper {
-  float:left;
-  width: 548px;
-  height: 100%;
+.menu-block-2 > div.menu-wrapper {
   overflow: hidden;
-  background: url(../images/menu_block_2_bg.jpg);
+  background: url(../images/menu_block_2_bg.jpg) no-repeat scroll 0 0 transparent;
 }
-.menu-block-2 ul {
-  height: 100%;
+.menu-block-2 > div.menu-wrapper > ul {
+  width:9999px;
+  height:40px;
   margin: 0 0;
   padding: 0 0;
 }
-.menu-block-2 ul li {
+.menu-block-2 > div.menu-wrapper > ul > li {
   float: left;
-  height: 100%;
+  height:40px;
   display: inline;
   margin-left: 1em;
   margin-right: 1em;
   vertical-align: middle;
 }
-.menu-block-2 ul li a {
+.menu-block-2 > div.menu-wrapper > ul > li > a {
   float: left;
-  height: 100%;
+  color: #666666;
   display: block;
-  color: #666;
-  line-height: 40px;
   text-align: center;
+  line-height: 30px;
   font-weight: bold;
   text-decoration: none;
 }
-.menu-block-2 ul li a:hover {
+.menu-block-2 > div.menu-wrapper > ul > li > a:hover {
   color: #df5a67;
 }
-.menu-block-2 ul li div.menu-block-2-a {
+.menu-block-2 > div.menu-wrapper > ul > li.active > a {
+  color: #df5a67;
+}
+.menu-block-2 > div.menu-wrapper > ul > li > div.menu-block-2-a {
   float: left;
-  height: 100%;
   display: block;
 }
-.menu-block-2 ul li div.menu-block-2-a-prefix {
+.menu-block-2 > div.menu-wrapper > ul > li > div.menu-block-2-a-prefix {
   width:8px;
+  height:40px;
 }
-.menu-block-2 ul li div.menu-block-2-a-surfix {
+.menu-block-2 > div.menu-wrapper > ul > li > div.menu-block-2-a-surfix {
   width:8px;
+  height:40px;
 }
-.menu-block-2 ul li.active a {
-  color: #df5a67;
-}
-.menu-block-2 ul li.active a{
+.menu-block-2 > div.menu-wrapper > ul > li.active > a {
   background: url(../images/menu_block_2_li_bg.jpg) repeat-x;
 }
-.menu-block-2 ul li.active div.menu-block-2-a-prefix {
+.menu-block-2 > div.menu-wrapper > ul > li.active > div.menu-block-2-a-prefix {
   background: url(../images/menu_block_2_li_bg_left.jpg) no-repeat;
 }
-.menu-block-2 ul li.active div.menu-block-2-a-surfix{
+.menu-block-2 > div.menu-wrapper > ul > li.active > div.menu-block-2-a-surfix {
   background: url(../images/menu_block_2_li_bg_right.jpg) no-repeat;
 }
 /**/

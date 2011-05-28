@@ -27,5 +27,6 @@
         theActive.addClass('active');
       }
     );
+    $('.menu-block-2 > .menu-wrapper > ul').addClass('sf-menu').superfish();
   }
 })(jQuery);
