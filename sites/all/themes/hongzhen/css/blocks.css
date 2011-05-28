@@ -1,0 +1,315 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+.block /* Block wrapper */ {
+  margin-bottom: 1.5em;
+}
+
+.block.first /* The first block in the region */ {
+}
+
+.block.last /* The last block in the region */ {
+}
+
+.block.odd /* Zebra striping for each block in the region */ {
+}
+
+.block.even /* Zebra striping for each block in the region */ {
+}
+
+h2.block-title /* Block title */ {
+}
+
+.block .content /* Block's content wrapper */ {
+}
+
+#block-aggregator-category-1 /* Block for the latest news items in the first category */ {
+}
+
+#block-aggregator-feed-1 /* Block for the latest news items in the first feed */ {
+}
+
+#block-blog-recent /* "Recent blog posts" block */ {
+}
+
+#block-book-navigation /* "Book navigation" block for the current book's table of contents */ {
+}
+
+#block-comment-recent /* "Recent comments" block */ {
+}
+
+#block-forum-active /* "Active forum topics" block */ {
+}
+
+#block-forum-new /* "New forum topics" block */ {
+}
+
+#block-locale-language /* Language switcher block */ {
+}
+
+#block-menu-menu-NAME /* Custom menu block  */ {
+}
+
+#block-node-recent /* "Recent content" block */ {
+}
+
+#block-node-syndicate /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */ {
+}
+
+#block-poll-recent /* "Most recent poll" block */ {
+}
+
+#block-profile-author-information /* "Author information" block for the profile of the page's author */ {
+}
+
+#block-search-form /* "Search form" block */ {
+}
+
+#block-shortcut-shortcuts /* "Shortcuts" block */ {
+}
+
+#block-statistics-popular /* "Popular content" block */ {
+}
+
+#block-system-main-menu /* "Main menu" block */ {
+}
+
+#block-system-user-menu /* "User menu" block for Drupal user menu */ {
+}
+
+#block-system-management /* "Management" block for Drupal management menu */ {
+}
+
+#block-system-navigation /* "Navigation" block for Drupal navigation menu */ {
+}
+
+#block-system-help /* "System help" block */ {
+}
+
+#block-system-main /* "Main page content" block */ {
+}
+
+#block-system-powered-by /* "Powered by Drupal" block */ {
+}
+
+#block-user-new /* "Who's new" block for a list of the newest users */ {
+}
+
+#block-user-login /* "User login form" block */ {
+}
+
+#block-user-online /* "Who's online" block for a list of the online users */ {
+}
+
+.region-sidebar-first .section {
+  margin: 0;
+  padding: 0;
+}
+.region-sidebar-first .block-block-prefix,.region-sidebar-first .block-system-prefix {
+  background: url(../images/left_bg_top.jpg) no-repeat;
+  width: 197px;
+  height: 15px;
+}
+.region-sidebar-first .block-block-surfix,.region-sidebar-first .block-system-surfix {
+  background: url(../images/left_bg_bot.jpg) no-repeat;
+  width: 197px;
+  height: 15px;
+}
+.region-sidebar-first .block-block,.region-sidebar-first .block-system {
+  background: url(../images/left_bg.jpg) repeat-y;
+  width: 197px;
+  overflow: hidden;
+  padding: 15px 0;
+  margin-bottom: 0;
+}
+.region-sidebar-first .block-block h2,.region-sidebar-first .block-system h2{
+  color: #bd1d2b;
+  padding:0 0 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.region-sidebar-first .block-block h2:hover,.region-sidebar-first .block-system h2:hover{
+  color: #FF9900;
+}
+.region-sidebar-first .block-block div,.region-sidebar-first .block-system div{
+  display: block;
+  width: 160px;
+  margin: 0 auto;
+  line-height: 20px;
+  color: #666;
+}
+
+#block-block-1 .content {
+}
+
+#block-block-2 .content {
+  background: url(../images/telephone.jpg) right top no-repeat;
+}
+
+#block-views-page-image-block {
+  text-align: center;
+}
+
+/**/
+.menu-block-1 ul{
+  margin: 0;
+  padding: 0;
+}
+.menu-block-1 ul li {
+  overflow: hidden;
+}
+.menu-block-1 ul li a,.menu-block-1 ul li a.active {
+  color: #ffffff;
+  display: block;
+  padding: 0.5em 0.3em;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu-block-1 ul li a:hover,.menu-block-1 ul li a.active:hover {
+  color:#ffffff;
+}
+/**/
+/**/
+.menu-block-1 ul li {
+  margin-top: 1px;
+}
+.menu-block-1 ul li ul {
+  margin-left:1px;
+}
+/**/
+/**/
+.menu-block-1 ul li {
+  border-left:8px solid #b83543;
+}
+.menu-block-1 ul li a {
+  background: #b83543;
+}/*
+.menu-block-1 ul li.active-trail {
+  border-left:8px solid #cc0000;
+}
+.menu-block-1 ul li.active-trail a.active-trail {
+  background: #cc0000;
+}*/
+/**/
+/**/
+.menu-block-1 ul li ul li {
+  border-left:4px solid #c6434f;
+}
+.menu-block-1 ul li ul li:hover {
+  border-left:4px solid #cc0000;
+}
+.menu-block-1 ul li ul li a {
+  background: #cccccc;
+}
+.menu-block-1 ul li ul li a:hover {
+  background: #aaaaaa;
+}
+.menu-block-1 ul li ul li.active-trail {
+  border-left:4px solid #cc0000;
+}
+.menu-block-1 ul li ul li.active-trail a {
+  background: #cccccc;
+}
+.menu-block-1 ul li ul li.active-trail a:hover {
+  background: #aaaaaa;
+}
+.menu-block-1 ul li ul li.active-trail a.active-trail {
+  background: #aaaaaa;
+}
+.menu-block-1 ul li ul li.active-trail a.active-trail:hover {
+  background: #cccccc;
+}
+.menu-block-1 ul li ul li.active-trail a.active-trail.active {
+  background: #aaaaaa;
+}
+.menu-block-1 ul li ul li.active-trail a.active-trail.active:hover {
+  background: #aaaaaa;
+}
+/**/
+
+/**/
+.menu-block-2 {
+  width: 588px;
+  height: 40px;
+}
+.menu-block-2 a.prev, .menu-block-2 a.next {
+  float: left;
+  width: 20px;
+  height: 100%;
+  display: none;
+  outline: medium none;
+  background: url("../images/arrows.gif") no-repeat scroll 0 0 #FFFFFF;
+}
+.menu-block-2 a.prev {
+  background-position: 0px 14px;
+}
+.menu-block-2 a.prev.disabled {
+  background-position: -127px 14px;
+}
+.menu-block-2 a.next {
+  background-position: 7px -14px;
+}
+.menu-block-2 a.next.disabled {
+  background-position: -120px -14px;
+}
+.menu-block-2 div.menu-wrapper {
+  float:left;
+  width: 548px;
+  height: 100%;
+  overflow: hidden;
+  background: url(../images/menu_block_2_bg.jpg);
+}
+.menu-block-2 ul {
+  height: 100%;
+  margin: 0 0;
+  padding: 0 0;
+}
+.menu-block-2 ul li {
+  float: left;
+  height: 100%;
+  display: inline;
+  margin-left: 1em;
+  margin-right: 1em;
+  vertical-align: middle;
+}
+.menu-block-2 ul li a {
+  float: left;
+  height: 100%;
+  display: block;
+  color: #666;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu-block-2 ul li a:hover {
+  color: #85bed7;
+}
+.menu-block-2 ul li div.menu-block-2-a {
+  float: left;
+  height: 100%;
+  display: block;
+}
+.menu-block-2 ul li div.menu-block-2-a-prefix {
+  width:8px;
+}
+.menu-block-2 ul li div.menu-block-2-a-surfix {
+  width:8px;
+}
+.menu-block-2 ul li.active a {
+  color: #85bed7;
+}
+.menu-block-2 ul li.active a{
+  background: url(../images/menu_block_2_li_bg.jpg) repeat-x;
+}
+.menu-block-2 ul li.active div.menu-block-2-a-prefix {
+  background: url(../images/menu_block_2_li_bg_left.jpg) no-repeat;
+}
+.menu-block-2 ul li.active div.menu-block-2-a-surfix{
+  background: url(../images/menu_block_2_li_bg_right.jpg) no-repeat;
+}
+/**/
