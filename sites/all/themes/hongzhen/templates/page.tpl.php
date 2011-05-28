@@ -143,9 +143,9 @@
       
       <?php print render($page['highlighted']); ?>
       
-      <?php print $breadcrumb; ?>
-      
       <?php print render($page['content_top']); ?>
+      
+      <?php print $breadcrumb; ?>
       
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
