@@ -7,7 +7,7 @@
  * ul.links, .pager, .more-link, etc.
  */
  h1,h2,h3 {
-   color:#396EA2;
+   color:#c6434f;
  }
 
 /*
@@ -219,7 +219,7 @@ div#site-name /* The name of the website */ {
 }
 .view-frontpage  {
   height: 380px;
-  background: url(../images/main.jpg);
+  /*background: url(../images/main.jpg);*/
 }
 .region-highlighted {
 }
@@ -229,7 +229,7 @@ div#site-name /* The name of the website */ {
   border-bottom: 1px dashed #ccc;
 }
 .breadcrumb a {
-  color: #396EA2;
+  color: #c6434f;
   text-decoration: none;
 }
 .breadcrumb a:hover {

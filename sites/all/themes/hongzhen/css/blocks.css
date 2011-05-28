@@ -287,7 +287,7 @@ h2.block-title /* Block title */ {
   text-decoration: none;
 }
 .menu-block-2 ul li a:hover {
-  color: #85bed7;
+  color: #df5a67;
 }
 .menu-block-2 ul li div.menu-block-2-a {
   float: left;
@@ -301,7 +301,7 @@ h2.block-title /* Block title */ {
   width:8px;
 }
 .menu-block-2 ul li.active a {
-  color: #85bed7;
+  color: #df5a67;
 }
 .menu-block-2 ul li.active a{
   background: url(../images/menu_block_2_li_bg.jpg) repeat-x;
