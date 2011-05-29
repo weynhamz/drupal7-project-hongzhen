@@ -392,3 +392,90 @@ h2.block-title /* Block title */ {
   background:url(../images/download.gif) no-repeat 0px 20px transparent;
   padding-left: 20px;
 }
+.view-references table {
+  width: 100%;
+}
+.view-references table thead th.views-field-title {
+    color: #666666;
+    float: left;
+    width: 477px;
+    height: 22px;
+    line-height: 25px;
+    padding-left: 10px;
+    border-right: 1px solid #FFFFFF;
+    background: none repeat scroll 0 0 #F2F2F2;
+}
+.view-references table thead th.views-field-created {
+    color: #666666;
+    float: left;
+    width: 100px;
+    height: 22px;
+    line-height: 25px;
+    text-align: center;
+    background: none repeat scroll 0 0 #F2F2F2;
+}
+
+.view-references table tbody tr {
+  vertical-align: middle;
+  border-bottom: 1px dotted #F2F2F2;
+  margin: 0 auto;
+}
+.view-references table tbody td {
+  height:30px;
+}
+.view-references table tbody td a {
+  color:#000000;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.view-references table tbody td a:hover {
+  color:#c6434f;
+}
+.view-references table tbody td p {
+  margin:0;
+  padding:0;
+}
+
+.view-newsevents table {
+  width: 100%;
+}
+.view-newsevents table thead th.views-field-title {
+    color: #666666;
+    float: left;
+    width: 477px;
+    height: 22px;
+    line-height: 25px;
+    padding-left: 10px;
+    border-right: 1px solid #FFFFFF;
+    background: none repeat scroll 0 0 #F2F2F2;
+}
+.view-newsevents table thead th.views-field-created {
+    color: #666666;
+    float: left;
+    width: 100px;
+    height: 22px;
+    line-height: 25px;
+    text-align: center;
+    background: none repeat scroll 0 0 #F2F2F2;
+}
+
+.view-newsevents table tbody tr {
+  vertical-align: middle;
+  border-bottom: 1px dotted #F2F2F2;
+  margin: 0 auto;
+}
+.view-newsevents table tbody td {
+  height:30px;
+}
+.view-newsevents table tbody td a {
+  color:#000000;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.view-newsevents table tbody td a:hover {
+  color:#c6434f;
+}
+.view-newsevents table tbody td p {
+  margin:0;
+  padding:0;
+}
