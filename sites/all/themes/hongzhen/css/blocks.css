@@ -502,3 +502,15 @@ h2.block-title /* Block title */ {
   border: 1px solid #CCCCCC;
   background-color: #EEEEEE;
 }
+#block-webform-client-block-58 {
+  clear:left;
+  padding: 1em;
+  border: 1px solid #CCCCCC;
+  background-color: #EEEEEE;
+}
+#webform-client-form-58 input.form-text {
+  width:99%;
+}
+#block-webform-client-block-58 input.form-text {
+  width:99%;
+}
