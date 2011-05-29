@@ -479,3 +479,26 @@ h2.block-title /* Block title */ {
   margin:0;
   padding:0;
 }
+.view-contactus .views-field {
+  line-height: 25px;
+  border-bottom: 1px dashed #CCCCCC;
+}
+.views-label-field-fax,.views-label-field-qq,.views-label-field-msn,.views-label-field-skype,.views-label-field-email,.views-label-field-address,.views-label-field-mobilephone,.views-label-field-telephone-cn-1,.views-label-field-telephone-en {
+  font-weight: bolder;
+}
+#block-views-contactus-block {
+  width:50%;
+  float: left;
+}
+#block-locationmap-image {
+  width:48%;
+  float: right;
+  clear: right;
+  padding-top:1em;
+}
+#block-webform-client-block-53 {
+  clear:left;
+  padding: 1em;
+  border: 1px solid #CCCCCC;
+  background-color: #EEEEEE;
+}
